@@ -16,7 +16,9 @@ instantclient-sdk-macos.x64-11.2.0.3.0.zip
 ```
 * Create new folder (oracle64) under /Users/username(your mac user name) as /Users/username(your mac user name)/oracle64
 ```
-    Move the zip files instantclient-sdk-macos.x64-11.2.0.3.0.zip and instantclient-basic-macos.x64-11.2.0.3.0.zip to /Users/username(your mac user name)/oracle64 manually or using command line as 
+    Move the zip files instantclient-sdk-macos.x64-11.2.0.3.0.zip and instantclient-basic-macos.x64-11.2.0.3.0.zip to
+    
+    /Users/username(your mac user name)/oracle64 manually or using command line as 
 
 mv instantclient*64* /Users/username(your mac user name)/oracle64
 
@@ -26,7 +28,9 @@ mv instantclient*64* /Users/username(your mac user name)/oracle64
 unzip instantclient-basic-macos.x64-11.2.0.3.0.zip
 unzip instantclient-sdk-macos.x64-11.2.0.3.0.zip
 
-    It will create it will create a folder instantclient_11_2 under /Users/username(your mac user name)/oracle64 with sdk           package included in instantclient-sdk-macos.x64-11.2.0.3.0.zip
+    It will create it will create a folder instantclient_11_2 under /Users/username(your mac user name)/oracle64 with sdk
+    
+    package included in instantclient-sdk-macos.x64-11.2.0.3.0.zip
 ```
 * Now move to instantclient_11_2 i.e. /Users/username(your mac user name)/oracle64/instantclient_11_2 because its to create
 symbolic link with some files in /usr/bin/lib/ which will be used in the installation of cx_Oracle, using following command
@@ -49,7 +53,9 @@ export PATH=$PATH:/Users/username(your mac user name)/oracle64/instantclient_11_
 * Untar cx_Oracle-5.1.2.tar.gz using command as:
 ```
 tar zxvf cx_Oracle-5.1.2.tar.gz
-    so that use have /Users/username(your mac user name)/oracle64/instantclient_11_2/cx_Oracle-5.1.2 directory with all contents     of cx_Oracle-5.1.2.tar.gz
+    so that use have /Users/username(your mac user name)/oracle64/instantclient_11_2/cx_Oracle-5.1.2 directory 
+    
+    with all contents of cx_Oracle-5.1.2.tar.gz
 ```
 * Move to cx_Oracle-5.1.2 i.e. /Users/username(your mac user name)/oracle64/instantclient_11_2/cx_Oracle-5.1.2
 * Now run command as:

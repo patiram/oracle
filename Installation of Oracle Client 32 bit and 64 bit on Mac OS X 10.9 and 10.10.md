@@ -1,6 +1,6 @@
 Istallation of python library for Oracle Client of Oracle v11.2.0.4g
 
-* Check the python architecture used:
+* Check the python architecture used by Mac OS:
 ```
 python -c 'import struct;print( 8 * struct.calcsize("P"))'
 

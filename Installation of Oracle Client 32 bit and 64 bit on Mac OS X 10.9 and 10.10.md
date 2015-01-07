@@ -1,4 +1,4 @@
-This has been tested for Oracle 11.0.2g
+Istallation of python library for Oracle Client of version Oracle 11.2.0.4g
 
 * Check the python architecture used:
 ```
@@ -63,7 +63,7 @@ pip install cx_Oracle
 
     should be successfully installed.
 ```
-11. Finally go to python terminal as 
+* Finally go to python terminal as 
 ```
 python 
     and then

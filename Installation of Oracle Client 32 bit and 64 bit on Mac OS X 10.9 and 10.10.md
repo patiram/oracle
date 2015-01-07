@@ -1,4 +1,4 @@
-Istallation of python library for Oracle Client of version Oracle 11.2.0.4g
+Istallation of python library for Oracle Client of Oracle v11.2.0.4g
 
 * Check the python architecture used:
 ```
@@ -44,8 +44,8 @@ export PATH=$PATH:/Users/username(your mac user name)/oracle64/instantclient_11_
 
     You may check your current path "instantclient_11_2" by using "pwd" command.
 ```
-* Go to http://sourceforge.net/projects/cx-oracle/files/ and download cx_Oracle-5.1.2.tar.gz
-* Move cx_Oracle-5.1.3.tar.gz to /Users/username(your mac user name)/oracle64/instantclient_11_2
+* Go to http://sourceforge.net/projects/cx-oracle/files/ and download cx_Oracle-5.1.2.tar.gz for python support
+* Move cx_Oracle-5.1.2.tar.gz to /Users/username(your mac user name)/oracle64/instantclient_11_2
 * Untar cx_Oracle-5.1.2.tar.gz using command as:
 ```
 tar zxvf cx_Oracle-5.1.2.tar.gz
